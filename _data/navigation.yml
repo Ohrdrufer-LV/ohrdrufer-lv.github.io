@@ -1,10 +1,7 @@
+---
 main:
-  #- title: "Archiv"
-  #  url: /posts/
-  #- title: "Kategorien"
-  #  url: /categories/
-  #- title: "Tags"
-  #  url: /tags/
+  - title: "News"
+    url: /news/
   - title: "Wettkämpfe aktuell"
     url: /wettkaempfe
   - title: "Ergebnis-Archiv"
