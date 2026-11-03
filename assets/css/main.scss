@@ -9,11 +9,12 @@
   --olv-blue: #3b5875;
   --olv-red: #cc0000;
   --olv-yellow: #f2c94c;
+  --olv-lightblue: #c0e5ff;
 }
 
 body {
   color: #222;
-  background-color: #fff;
+  background-color: var(--olv-lightblue);
 }
 
 a {
@@ -29,7 +30,7 @@ a {
 }
 
 .greedy-nav {
-  background: #fff;
+  background: var(--olv-lightblue);
 
   a {
     color: var(--olv-blue);
@@ -49,7 +50,7 @@ a {
   background: var(--olv-blue);
 
   a {
-    color: #fff;
+    color: var(--olv-lightblue);
 
     &:hover {
       color: var(--olv-yellow);
@@ -59,12 +60,12 @@ a {
 
 .btn,
 .pagination--pager {
-  color: #fff;
+  color: var(--olv-lightblue);
   background-color: var(--olv-blue);
   border-color: var(--olv-blue);
 
   &:hover {
-    color: #fff;
+    color: var(--olv-lightblue);
     background-color: var(--olv-red);
     border-color: var(--olv-red);
   }
