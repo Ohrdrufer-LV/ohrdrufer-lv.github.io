@@ -1,0 +1,71 @@
+---
+---
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'air' }}";
+@import "minimal-mistakes";
+
+:root {
+  --olv-blue: #3b5875;
+  --olv-red: #cc0000;
+  --olv-yellow: #f2c94c;
+}
+
+body {
+  color: #222;
+  background-color: #fff;
+}
+
+a {
+  color: var(--olv-blue);
+
+  &:hover {
+    color: var(--olv-red);
+  }
+}
+
+.masthead {
+  border-bottom: 3px solid var(--olv-red);
+}
+
+.greedy-nav {
+  background: #fff;
+
+  a {
+    color: var(--olv-blue);
+
+    &:hover {
+      color: var(--olv-red);
+    }
+  }
+
+  .visible-links a::before {
+    background: var(--olv-red);
+  }
+}
+
+.page__footer {
+  color: #fff;
+  background: var(--olv-blue);
+
+  a {
+    color: #fff;
+
+    &:hover {
+      color: var(--olv-yellow);
+    }
+  }
+}
+
+.btn,
+.pagination--pager {
+  color: #fff;
+  background-color: var(--olv-blue);
+  border-color: var(--olv-blue);
+
+  &:hover {
+    color: #fff;
+    background-color: var(--olv-red);
+    border-color: var(--olv-red);
+  }
+}
